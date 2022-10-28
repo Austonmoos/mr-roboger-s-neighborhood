@@ -1,6 +1,6 @@
-# _{Mr.Roboger's Neighborhood}_
+# Mr.Roboger's Neighborhood
 
-#### By Auston Moos}**_
+#### By Auston Moos
 
 #### _{Brief description of application}_
 
@@ -17,11 +17,11 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* 
+* 
+* 
+* 
+* 
 
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
@@ -45,10 +45,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 TDD/Tests
 
+Describe: mrRobogersNeighborhood()
 
-Test:"It will return an array 
-Code:
-Expected Output:
+Test:"It will return an array of numbers starting with 0 then ending with the users input." 
+Code: mrRobogersNeighborhood("12")
+Expected Output: [0,1,2,3,4,5,6,7,8,9,10,11,12]
 
 Test:
 Code:
