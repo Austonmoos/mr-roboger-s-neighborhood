@@ -51,22 +51,22 @@ Test:"It will return an array of numbers starting with 0 then ending with the us
 Code: mrRobogersNeighborhood("12")
 Expected Output: [0,1,2,3,4,5,6,7,8,9,10,11,12]
 
-Test:"It will return an array of numbers that have 3 with "Won't you be my neighbor?" "
-Code:mrRobogersNeighborhood("12")
+Test:"It will return an array of numbers that have 3 with 'Won't you be my neighbor?'"
+Code: mrRobogersNeighborhood("12")
 Expected Output: [0,1,2,"Won't you be my neighbor?",4,5,6,7,8,9,10,11,12]
 
-Test: 
-Code:
-Expected Output:
+Test: "It will return an array with 2 replaced by 'Boop!'"
+Code: mrRobogersNeighborhood("23")
+Expected Output: [0,1,"Boop!","Won't you be my neighbor?",4,5,6,7,8,9,10,"Boop!","Won't you be my neighbor?"]
 
-Test:
-Code:
-Expected Output:
+Test: "It will return an array with 1 replaced by 'Beep!'"
+Code: mrRobogersNeighborhood("23")
+Expected Output: [0,"Beep!","Boop!","Won't you be my neighbor?",4,5,6,7,8,9,10,11,12]
 
-Test:
-Code:
-Expected Output:
+Test: "It will return an array as a comma-seperated string."
+Code: mrRobogersNeighborhood("3")
+Expected Output: [0,"Beep!",Boop!",Won't you be my neighbor?"]
 
-Test:
-Code:
-Expected Output:
+Test: "It will return an error message if anything but a natural (i.e., counting) number has been entered." 
+Code: mrRobogersNeighborhood("$23")
+Expected Output: Error: '$23' is not a natural number.
